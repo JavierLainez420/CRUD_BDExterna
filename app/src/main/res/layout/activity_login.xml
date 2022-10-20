@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/fondo_login"
+    android:background="@drawable/h1"
     android:gravity="center"
     tools:context=".Login">
 
@@ -13,7 +13,7 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="150dp"
-        app:srcCompat="@drawable/login1" />
+        app:srcCompat="@drawable/usuario" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -51,9 +51,10 @@
                     android:layout_marginTop="4dp"
                     android:onClick="OnClick"
                     android:text="Registrate"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
                     android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="@color/purple_200"/>
             </RelativeLayout>
 
             <androidx.appcompat.widget.AppCompatEditText
@@ -65,7 +66,7 @@
                 android:padding="5dp"
                 android:ems="10"
                 android:hint="Usuario"
-                android:drawableStart="@drawable/ic_user"/>
+                android:drawableStart="@drawable/ic_launcher_foreground"/>
 
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/etcontraseña"

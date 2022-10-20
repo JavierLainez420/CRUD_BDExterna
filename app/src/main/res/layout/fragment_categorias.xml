@@ -30,7 +30,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:src="@drawable/agregar_cat"
+        android:src="@drawable/control"
         android:layout_marginTop="20dp"/>
 
     <!-- TODO: Update blank fragment layout -->

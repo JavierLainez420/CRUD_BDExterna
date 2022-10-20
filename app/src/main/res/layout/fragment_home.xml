@@ -7,21 +7,30 @@
     android:background="@color/black"
     android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
-
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CICLO II - 2022\nITCA FEPADE"
+        android:textColor="#0DE605"
+        android:textSize="21sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="390dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/logo_itca"
+
         android:layout_marginTop="50dp"
         android:layout_gravity="center"/>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="App con Acceso a Base de Datos MySQL\nSmartphone y Tablet con SO Android"
-        android:textColor="@color/white"
+        android:text="App para android con Acceso a Base de Datos MySQL"
+        android:textColor="#CA05EC"
         android:textSize="21sp"
         android:layout_gravity="center"
         android:gravity="center"
@@ -32,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Modulo: Desarrollo de Aplicaciones Usando\nTecnologias Emergentes"
-        android:textColor="@color/white"
+        android:textColor="#50AFFB"
         android:textSize="21sp"
         android:layout_gravity="center"
         android:gravity="center"
@@ -42,8 +51,10 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Estudiante: Noé Antonio Garcia Valle"
-        android:textColor="@color/white"
+        android:text="Estudiantes: farina lisbeth gavidia cortez
+javier alexander gamez lainez"
+
+        android:textColor="#ED0B58"
         android:textSize="21sp"
         android:layout_gravity="center"
         android:gravity="center"
@@ -54,7 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Segundo Año de Sistemas Informaticos"
-        android:textColor="@color/white"
+        android:textColor="#82EF04"
         android:textSize="21sp"
         android:layout_gravity="center"
         android:gravity="center"
