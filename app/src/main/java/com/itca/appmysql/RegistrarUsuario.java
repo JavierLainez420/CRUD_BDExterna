@@ -191,7 +191,7 @@ public class RegistrarUsuario extends AppCompatActivity {
                 map.put("Accept", "application/json");
                 map.put("id_usuario", String.valueOf(id_user));
                 map.put("nom_usuario", nombreUser);
-                map.put("apellido_usuarios", apellUser);
+                map.put("apellido_usuario", apellUser);
                 map.put("correo", emailUser);
                 map.put("usuario", usuario);
                 map.put("clave", claveU);

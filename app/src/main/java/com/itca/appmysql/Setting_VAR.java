@@ -17,9 +17,9 @@ public class Setting_VAR {
    // public static final String URL_registrar_categorias = "https://noegarciasis11b.000webhostapp.com/service/guardar.php";
     //URL para cargar valores en forma de lista de las categorias en Spinner (ForeignKey / Llave foranea)
     //Para mostrar en Spinner del layout productos
-    public static final String URL_consultaALLCategorias = "https://noegarciasis11b.000webhostapp.com/service/buscar_Categorias.php";
+    public static final String URL_consultaALLCategorias = "https://javiergamezsis12a.000webhostapp.com/sw/buscar_Categorias.php";
     //public static final String URL_consultaALLCategorias = "http://localhost/service/buscar_Categorias.php";
     //URL para regsitrar productos nuevos.
-    public static final String URL_registrar_productos = "https://noegarciasis11b.000webhostapp.com/service/guardar_productos.php";
-    //public static final String URL_registrar_productos = "http://localhost/service/guardar_productos.php";
+    public static final String URL_registrar_productos = "https://javiergamezsis12a.000webhostapp.com/sw/guardar_productos.php";
+
 }

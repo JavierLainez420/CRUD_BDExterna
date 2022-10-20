@@ -33,7 +33,7 @@ import java.util.Map;
 public class Categorias extends Fragment {
     private EditText etid, etnombre;
     private Spinner sp1;
-    private Button btncat;
+    private Button btncat, btnnew;
     private TextView tvrespuesta;
 
     String datoSelect = "";
@@ -58,6 +58,8 @@ public class Categorias extends Fragment {
         sp1 = root.findViewById(R.id.sp1);
         btncat = root.findViewById(R.id.btncat);
         tvrespuesta = root.findViewById(R.id.tvrespuesta);
+        btnnew = root.findViewById(R.id.btnNew);
+
 
 
         sp1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -100,9 +102,19 @@ public class Categorias extends Fragment {
             }
         });
 
+        btnnew.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                etid.setText(null);
+                etnombre.setText(null);
+                sp1.setSelection(0);
+            }
+        });
 
         return root;
     }
+
+
 
 
     private void guardar(){
@@ -147,9 +159,9 @@ public class Categorias extends Fragment {
     }
 
 
+
     private void guardarcategoria(final Context context, final int id_categoria, final String nom_categoria, final int estado_categoria) {
-        String url = "https://noegarciasis11b.000webhostapp.com/service/guardar_categorias.php";
-        //String url = "http://localhost/service/guardar_categorias.php";
+        String url = "https://javiergamezsis12a.000webhostapp.com/sw/guardar_categoria.php";
         StringRequest request = new StringRequest(Request.Method.POST,url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -185,6 +197,9 @@ public class Categorias extends Fragment {
             return map;
         }
     };
+
         MySingleton.getInstance(context).addToRequestQueue(request);
     }
+    
+        
 }

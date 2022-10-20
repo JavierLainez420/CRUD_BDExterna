@@ -315,7 +315,10 @@ public class Productos extends Fragment {
                 map.put("uni_medida", uni_medida);
                 map.put("estado_prod", estado_prod);
                 map.put("categoria", categoria);
+
                 return map;
+
+
             }
         };
         MySingleton.getInstance(context).addToRequestQueue(stringRequest);
